@@ -12,12 +12,18 @@ train.py: train the YOLO model for only 'Person' class
 init.py: extract data from training the model
 lane_detection.py: canny edge detection
 load_dataset: extract 'Person' class from COCO2017
-======
-run test code step:
+
+---
+
+**Run test code step:**
 
 sudo apt install python3.12-venv
+
 python3 -m venv pyvenv
+
 source pyvenv/bin/activate
+
 pip install -r requirements.txt
+
 python3 test.py
 deactivate
